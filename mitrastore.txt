@@ -1,0 +1,13 @@
+WORDPRESS
+mitra
+MitraTerra5
+
+---------------------------
+BANCO DE DADOS
+Usuário: mitra_admin
+Banco de dados: mitra_dados
+
+
+--------------------------
+FTP
+mitra
