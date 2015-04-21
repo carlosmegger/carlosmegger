@@ -1,0 +1,9 @@
+<div class="unitx1b"><a href="http://www.colegiomodelopr.com.br/matriculas"><img src="<? bloginfo('stylesheet_directory')?>/imgs/matriculas.png" border="0" /></a></div>
+                 	    <div class="unitx1b"><a href="http://www.modeloeducacional.com.br/acadeweb"><img src="<? bloginfo('stylesheet_directory')?>/imgs/modelo_on.png" border="0" /></a></div>
+<div class="unitx1b"><a href="http://www.colegiomodelopr.com.br/empresas"><img src="<? bloginfo('stylesheet_directory')?>/imgs/emp_conv.png" border="0" /></a></div>
+                      <div class="unitx1b"><a href="http://www.colegiomodelopr.com.br/transporte"><img src="<? bloginfo('stylesheet_directory')?>/imgs/transporte.png" border="0" /></a></div>
+                      <div class="unitx1b"><a href="http://www.colegiomodelopr.com.br/uniformes"><img src="<? bloginfo('stylesheet_directory')?>/imgs/unif_esc.png" border="0" /></a></div>
+                      <div class="unitx1b"><a href="http://www.colegiomodelopr.com.br/language-center/"><img src="<? bloginfo('stylesheet_directory')?>/imgs/cent_ling.png" border="0" /></a></div>
+                      <div class="unitx1b"><a href="http://www.colegiomodelopr.com.br/trabalhe-conosco/"><img src="<? bloginfo('stylesheet_directory')?>/imgs/trab_conosco.png" border="0" /></a></div>
+                      <div class="unitx1b"><a href="http://www.colegiomodelopr.com.br/agenda-cultural/"><img src="<? bloginfo('stylesheet_directory')?>/imgs/agend_cult.png" border="0" /></a></div>
+                      <div class="unitx1b"><a href="http://www.facimod.com.br"><img src="<? bloginfo('stylesheet_directory')?>/imgs/faculdade.png" border="0" /></a></div>

@@ -1,0 +1,171 @@
+*{margin:0px; padding:0px}
+
+body { 
+	background:url(background.jpg);
+	}
+	
+#conteudoprincipal{ 
+	margin:auto;
+	width:1010px; 
+}
+
+#logo {
+	margin-top:16px;
+	float:left;
+	width:167px;
+	height:167px;
+	display:block;
+	}
+		
+#mobile {
+	 float:left;
+	 width:677px;
+	 height:183px;
+	 }
+		  
+#faceicone {
+	margin-left:20px;
+	margin-top:131px;
+	float:left;
+	width:42px;
+	height:41px;
+	}
+	
+#twittericone {
+	margin-left:20px;
+	margin-top:131px;
+	float:left;
+	width:42px;
+	height:42px;
+	}
+#contentarea {
+	 background:url(cabecalho.png); 
+	 width:1010px; 
+	 height:28px;
+	 margin:auto;
+	 margin-top:15px; 
+	 } 
+#contentareabg {
+	background: url(bgcontent.png) repeat-y; 
+	width:1010px; 
+	height:auto; 
+	margin-top:28px; 
+	float:left;
+	}
+#rodape {
+	background:url(rodape.png);
+	 width:1010px;
+	 height:33px; 
+	 margin-top:auto; 
+	 margin-bottom:25px; 
+	 float:left;
+	 }
+h1 {
+	font-family: 'Kaushan Script', cursive;
+	font-size:32,5px; 
+	color:#7c6e58; 
+	font-weight:200; 
+	margin-left:127px; 
+	margin-top:-8px ; 
+	letter-spacing:-1px;
+	}
+
+h1.title-desc { margin-left:50px !important;  }
+
+p.quemsomos {
+	font-family: 'Quicksand', sans-serif; 
+	font-size:15.6px; 
+	color:#8abaa2; 
+	width:310px; 
+	height:190px; 
+	margin-left:51px; 
+	margin-top:10px; 
+	text-align:justify; 
+	line-height:19px;
+	}
+
+.descricao-conteudo{
+	font-family: 'Quicksand', sans-serif; 
+	font-size:14px; 
+	color:#8abaa2; 
+	width:906px; 
+	height:190px; 
+	margin:10px 50px 0; 
+	text-align:justify; 
+	line-height:22px;
+	}
+
+p.fotobebe {
+	 font-family: 'Quicksand', sans-serif;
+	 font-size:14px;
+	 color:#8abaa2; 
+	 width:311px; 
+	 height:76px; 
+	 margin-left:51px; 
+	 margin-top:-7px; 
+	 text-align:justify; 
+	 line-height:20px;
+	 }
+
+h2 {
+	font-family: 'Kaushan Script', cursive;
+	font-size:30px; 
+	color:#7c6e58; 
+	font-weight:200; 
+	margin-left:127px; 
+	margin-top:20px; 
+	letter-spacing:-1px;
+	}
+
+#muralbebe {
+	 width:312px; 
+	 height:180px; 
+	 margin-left: 51px; 
+	 margin-bottom:28px; 
+	 margin-top:12px
+	 }
+	 
+#muralbebe img{ border:4px solid #FAD8DE;}
+	 
+h3 {
+	font-family: 'Kaushan Script', cursive;, cursive; 
+	font-size:31px; 
+	color:#7c6e58; 
+	font-weight:200; 
+	margin-right:100px; 
+	margin-top:-600px; 
+	letter-spacing:-1px; 
+	float: right;
+	}
+	
+#lojavirtual {
+	 width:428px;
+	 height:117px; 
+	 float: right; 
+	 margin-top:-178px; 
+	 margin-right:80px
+	 }
+#faleconosco {
+	background:url(contato.png); 
+	width:421px;
+	height:25px; 
+	float:right; 
+	margin-right:80px; 
+	margin-top:-41px
+	} 
+#produtos {
+	color:#7c6e58;
+	font-size:14px;
+	width:500px;
+	height:343px;
+	margin-top:-542px;
+	float:right;
+	font-size:14px;
+	margin-right:30px;
+	margin-bottom:-10px;
+	font-weight:bold;
+	font-family: 'Quicksand', sans-serif;
+	}
+ 
+
+.clear{ clear:both;}

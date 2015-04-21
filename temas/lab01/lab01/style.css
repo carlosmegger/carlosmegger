@@ -1,0 +1,238 @@
+/*
+Theme Name: LAB:01 Theme
+Theme URI: http://www.lab01.com.br/
+Description: Tema produzido por LAB:01 Records.
+Version: 1
+Author: Trevoh
+Author URI: http://www.lab01.com.br
+Tags: LAB:01, Lab01, Musica, Cwbeats, RAP, Cwb
+Text Domain: LAB:01
+
+	LAB01 v1
+	 http://www.lab01.com.br/
+
+*/
+
+body {
+ margin-top: 0px;
+ background:url(imgs/background.jpg) fixed;
+}
+
+p {
+margin-top:5px;
+margin-bottom:5px;
+
+}
+
+h1, h1 a{
+font-family:Arial, Helvetica, sans-serif;
+text-transform:uppercase;
+font-size:12px;
+color:#990000;
+padding:0px;
+margin:0px;
+text-decoration:none;
+}
+
+.style1{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#666666;
+}
+
+.style2{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#990000;
+}
+.style2 a{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#990000;
+text-decoration:none;
+}
+
+.style3 {
+	color: #990100;
+	font-size: 10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+.style4{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#990000;
+text-decoration:none;
+}
+.style4 a {
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#666;
+text-decoration:none;
+}
+.style4 a:hover, style4 a:hover a {
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#666;
+text-decoration:underline;	
+}
+
+.clear {
+clear:both;
+*clear:none;
+margin:0px;
+padding:0px;
+visibility:hidden;
+}
+
+
+#geral {
+	width:900px;
+	margin:auto;
+	background:url(imgs/fundoconteudo.png);
+}
+
+.topo {
+width:900px;
+height:auto;
+}
+
+.width4 {
+	width:900px;
+	padding-top:15px;
+	margin:auto;
+	float:left;
+}
+
+.div_cont_width3{
+width:556px;
+float:left;
+}
+
+.width3 {
+width:548px;
+min-height:404px;
+height:auto;
+background:url(imgs/fundo_width3.png);
+background-repeat:repeat-y;
+float:left;
+margin-right:8px;
+padding-bottom:4px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#666;
+}
+.width3_rodape {
+width:550px;
+float:left;
+margin-right:6px;
+}
+
+.storycontent{
+padding-left:10px;
+padding-right:15px;
+}
+
+.div_cont_width1{
+width:278px;
+float:left;
+}
+
+.width1 {
+width:272px;
+height:408px;
+background:url(imgs/fundo_width1.png);
+background-repeat:repeat-y;
+float:left;
+margin-right:6px;
+}
+.width1_rodape {
+width:272px;
+float:left;
+margin-right:6px;
+}
+.thumb {
+width:232px;
+padding:5px;
+float:left;
+border: 1px #B7B7B7 solid;
+margin-bottom:10px;
+}
+
+.title, .title  a {
+margin-top:12px;
+padding-left:10px;
+padding-top:4px;
+padding-bottom:5px;
+margin-bottom:15px;
+background:url(imgs/fundo_title.png);
+width:69%;
+font-family:Arial, Helvetica, sans-serif;
+text-transform:uppercase;
+font-size:12px;
+font-weight:bold;
+color:#fff;
+text-decoration:none;
+list-style: none;
+}
+
+.noticia {
+height:100px;
+width:225px;
+border-left:5px #990000 solid;
+float:left;
+margin-left:10px;
+margin-bottom:22px;
+padding-left:10px;
+padding-top:0px;
+padding-right:10px;
+}
+
+.destaque {
+width:245px;
+float:left;
+margin-left:10px;
+}
+
+.banner {
+width:811px;
+padding:10px;
+padding-top:0px;
+padding-bottom:7px;
+margin: 0px auto 0px auto;
+background-image:url(imgs/fundobanner.png);
+}
+
+.conteudo {
+width:835px;
+padding-top:8px;
+padding-bottom:7px;
+margin: 0px auto 0px auto;
+}
+.conteudo_index {
+width:835px;
+padding-top:14px;
+padding-bottom:7px;
+margin: 0px auto 0px auto;
+}
+.floatleft {
+float:left;
+padding-left:5px;
+padding-bottom:4px;
+padding-top:4px;
+}
+
+.floatright {
+float:right;
+}
+.rodape{
+width:900px;
+text-align:center;
+padding-top:5px;
+padding-left: 8px;
+margin:auto;
+font-family:"Times New Roman", Times, serif;
+font-size:12px;
+color:#ffffff;
+
+}

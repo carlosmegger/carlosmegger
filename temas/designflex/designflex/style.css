@@ -1,0 +1,180 @@
+/*
+Theme Name: Design Flex
+Theme URI: http://www.designflex.com.br/
+Description: Tema Desenvolvido pela INBE Comunicação para a DesignFlex
+Author: INBE Comunicação
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Tags: Designflex, Cadeiras, Layout, fixed-width
+*/
+
+/*----------------------------------------------------------------------- */
+
+p{
+	margin-top:5px;
+	margin-bottom:3px;
+	margin-left:0px;
+	padding:0px;	
+}
+
+h1{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#900;
+	margin:0px;
+	
+	}
+
+h2, h2 a{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#900;
+	margin-bottom:0px;
+	padding-bottom:0px;
+	text-decoration:none;
+	}
+
+h3, h3 a {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#666;
+	text-decoration:none;
+	padding:0px;
+	margin:0px;
+	}
+	
+h4, h4 a{
+	font-family:Verdana, Geneva, sans-serif;
+	border-bottom: 1px dotted #900;
+	font-size:14px;
+	color:#900;
+	margin-right:20px;
+	margin-bottom:5px;
+	padding-bottom:3px;
+	padding-top:0px;
+	margin-top:0px;
+	text-decoration:none;
+	}		
+
+.style1 { 
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#666;
+}
+.style2 {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	color:#666;
+	}
+.style3, .style3 a {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	color:#900;
+	text-decoration:none;
+	}
+
+body {
+	margin-top:0px;
+	background:url(imgs/background.jpg) repeat-x #7b7a7a fixed;
+}
+
+.clear{
+	clear:both;
+	*clear:none;
+	border:0px;
+	padding:0px;
+	margin:0px;
+	visibility:hidden;
+	}
+	
+#menuinc{ margin-left: -8px; float:left;}	
+#floatleft{float:left;}	
+	
+#geral{
+	width:1000px;
+	padding:0 7px 0 7px;
+	height:auto;
+	background:url(imgs/fundo_layout.png) repeat-y;
+	margin:auto;
+	}
+#conteudo{
+	background:url(imgs/fundo_conteudo.jpg) repeat-x #c7c7c7;
+	*background-color:#CCC;
+	height:auto;
+	display:block;
+	padding-bottom:18px;
+}
+#header{
+	width:1000px;
+	background:url(imgs/fundo_header.png) no-repeat;
+	height:180px;
+	float:left;	
+	}
+#logo {
+	float:left;
+	width:50%;
+	}	
+#redessociais{
+	float:left;
+	text-align:right;
+	width:480px;
+	padding-right:20px;
+	padding-top:15px;
+	}	
+
+#destaque{
+	width:938px;
+	padding:10px;
+	height:auto;
+	min-height:335px;
+	background-color:#FFF;
+	border: 1px #bababa solid;
+	float:left;
+	margin:20px;
+	}
+	
+.post { 
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#666;
+}		
+#width4{
+	width:960px;
+	height:auto;
+	margin:20px 0px 20px 20px;
+	}	
+#width1{
+	width:276px;
+	float:left;
+	min-height:200px;
+	background:url(imgs/fundo_box.jpg) repeat-x #d3d3d3;
+	border: 1px #bababa solid;
+	height:auto;
+	margin-left:20px;
+	padding-top:10px;
+	padding-left:15px;
+	border-radius:9px;
+	}
+.texto{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666;
+	margin-right:15px;
+	padding-bottom:4px;
+	margin-bottom:4px;
+	border-bottom: 1px solid #CCC;
+	}
+			
+#rodape{
+	width:950px;
+	height:20px;
+	padding-top:4px;
+	padding-left:6px;
+	border: 1px solid #bababa;
+	background:url(imgs/rodape_inbe.jpg) repeat-x #d4d4d4;
+	margin:20px 20px 0px 20px;
+	}		
+	
+
+

@@ -1,0 +1,344 @@
+/*
+Theme Name: WordPress Default
+Theme URI: http://wordpress.org/
+Description: Elefantinho Colorido.
+Version: 1
+*/
+
+body {
+background: url(imgs/fundo.jpg);
+/*background-repeat:repeat-x; */
+margin-top: 0px;
+
+}
+.style1 {
+	color: #990100;
+	font-size: 14px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-bottom:8px;
+	border-bottom: 1px #B4B4B4 dotted;
+	padding-bottom:8px;
+	}
+	
+/*JANELA POP UP */
+.pop_widget {
+	position:absolute;
+	left:50%;
+	top:290px;
+	margin-left:-200px;
+	border:3px solid #CCCCCC;
+	z-index:99;
+}
+.pop_widget .hiden {
+	visibility:hidden;
+	display:none;
+}
+.pop_widget a.fechar , .pop_widget a:visited.fechar {
+	display: block;
+	overflow:hidden;
+	text-indent: -9999px;
+	position:absolute;
+	right:-2px;
+	top:-2px;
+	cursor:pointer;
+	float:right;
+	color:#FFFFFF;
+	display:block;
+	margin:0px;
+	background:#990000 url(imgs/x.png) center no-repeat;
+	padding:0px;
+	width:12px;
+	height:12px;
+
+	border:1px solid #fff;
+}
+.pop_widget a:hover.fechar {}
+
+/*JANELAPOP UP FINAL*/
+	
+.style2 {
+	color:#003399;
+	font-size: 12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.style2 a, .style2 a:visited {
+	color:#003399;
+	font-size: 12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+.style3 {
+	color: #990100;
+	font-size: 10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.style4 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.stylehome {
+	color: #990100;
+	font-size: 14px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	border-bottom: 1px #B4B4B4 dotted;
+	padding-bottom:8px;
+	width:612px;
+}
+
+
+
+
+.socialmediadiv { 
+float:right;
+width:100px;
+padding:0px;
+margin:0px;
+height: 19px;
+
+}
+.socialmedia { float:right; width:90px; margin-right:22px;}
+.socialmedia li { 
+float:right; 
+list-style:none;
+ margin-right:12px;
+ }
+.socialmedia li a , .socialmedia li a:visited {}
+.socialmedia li a.icomediasocial , .socialmedia li a:visited.icomediasocial {
+	text-indent: -9999px;
+	overflow: hidden;
+	margin-top:2px;
+	*margin-top:1px;
+	margin-bottom:2px;
+	width: 15px;
+	height: 15px;
+	display: block;
+}
+.socialmedia li a.twitter { background:url(imgs/twitter.jpg) no-repeat center;}
+.socialmedia li a.blog {background:url(imgs/face.jpg) no-repeat center;}
+
+
+hr {
+	clear:both;
+	color:#D2D2D2;
+}
+
+.clearhidden {
+	clear:both;
+	visibility:hidden;
+	margin:0px;
+}
+
+#geral {
+	width:1000px;
+	margin: auto;
+	background:#FFFFFF;
+}
+
+#topogeral {
+	width:1000px;
+	padding:0px;
+}
+
+#topoa{
+width:168px;
+height:284px;
+float:left;
+}
+
+#topob{
+width:832px;
+height:284px;
+float:right;
+}
+
+
+#corpo {
+float:left;
+width:1000px;
+background-image:url(imgs/fundomeio.jpg);
+background-repeat:repeat-x;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:12px;
+color:#666666;
+}
+
+.width1{
+width:148px;
+float:left;
+padding-left:18px;
+padding-top: 18px;
+}
+
+.unitx1{
+width:137px;
+height:105px;
+float:left;
+background:url(imgs/fundo_info.gif) no-repeat;
+padding-left:10px;
+padding-top: 10px;
+margin-bottom:3px;
+}
+.unitx1b{
+width:147px;
+float:left;
+margin-bottom:5px;
+}
+.width3 {
+	width:833px;
+	float:left;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12px;
+}
+
+.width2 {
+	width:648px;
+	padding-top:18px;
+	padding-left:18px;
+	float:left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:18px;
+	padding-bottom:16px;
+}
+
+.width2b {
+	width:620px;
+	padding-top:18px;
+	padding-left:18px;
+	padding-right:28px;
+	float:left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:18px;
+}
+
+.width2c {
+	width:620px;
+	height:800px;
+	background:url(imgs/card.png);
+	background-repeat:no-repeat;
+	padding-top:18px;
+	padding-left:28px;
+	padding-right:18px;
+	float:left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:18px;
+}
+
+.noticia {
+	width:275px;
+	height:175px;
+	*height:190px;
+	margin-right:15px;
+	margin-bottom:5px;
+	margin-top:12px;
+	padding-left:12px;
+	padding-top: 5px;
+	padding-right:12px;
+	float:left;
+	border-bottom: 1px #bfbfbe dotted;
+}
+
+.thumb {
+	float:left;
+	padding:3px;
+	border:1px solid #999999;
+	width:60px;
+	background:#FFFFFF;
+}
+
+.texto{
+	float:right;
+	height:170px;
+	width:196px;
+
+}
+
+.width1direita{
+width:148px;
+float:right;
+padding-right:18px;
+padding-top: 18px;
+}
+
+#rodape {
+	background:#990100;
+	width:970px;
+	height:20px;
+	float:left;
+	padding-top:6px;
+	padding-left:15px;
+	padding-right:15px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color:#FFFFFF;
+}
+
+#floatleft {
+float:left;
+
+}
+#floatright {
+float:right;
+
+}
+
+
+
+/* Tabela Tarefas Online*/
+table {
+	margin:0px;
+	padding:0px;
+
+}
+thead th {
+	font-weight:bold;
+	padding:3px;
+
+}
+tbody th {
+	/*border:1px solid #CCCCCC;*/
+
+
+}
+td {
+	text-align:left;
+	padding:3px;
+	
+
+}
+
+/*INFORMATIVO MENU*/
+
+.infomenu {
+	list-style: none;
+	padding:0px;
+
+}
+
+.infomenu li {
+	text-align:left;
+	padding-left:0px;
+	padding-top:2px;
+	margin:0px;
+}
+.infomenu li a , .infomenu li a:visited {
+
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#FF6600;
+	font-size: 11px;
+	line-height:12px;
+	text-decoration: none;
+
+}
+
+.infomenu li a:hover {
+	text-decoration: underline;
+}

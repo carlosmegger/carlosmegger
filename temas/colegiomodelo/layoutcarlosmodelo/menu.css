@@ -1,0 +1,131 @@
+/*
+Theme Name: Carlos megger
+Theme URI: http://wordpress.org/
+Description: The default WordPress theme based on the famous <a href="http://binarybonsai.com/kubrick/">Kubrick</a>.
+Version: 1
+Author: Carlos meggr
+Author URI: http://www.inbe.com.br
+Tags: blue, custom header, fixed width, two columns, widgets
+Text Domain: kubrick
+
+	Kubrick v1.5
+	 http://binarybonsai.com/kubrick/
+
+	This theme was designed and built by Michael Heilemann,
+	whose blog you will find at http://binarybonsai.com/
+
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+
+/* MENU PRINCIPAL */
+/* Fix IE. Hide from IE Mac \*/
+* html ul li { float: left; height:1% }
+* html ul li a { height: 1%; }
+/* FIM */
+
+#menu {
+	height:20px;
+	width:832px;
+	background:#990100;
+}
+
+#nav {
+	height:19px;
+	float:left;
+}
+.menu ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	margin-left:5px;
+}
+.menu li:hover ul, li.over ul {
+	display:block;
+}
+.menu ul li { /* vermelho */
+	padding-top:1px;
+	padding-bottom:0px;
+	padding-left:3px;
+	padding-right:9px;
+	margin-right:13px;
+	margin-top:0px;
+	float:left;
+	position:relative;
+	height:19px;
+}
+.menu ul li a {
+	margin: 0;
+	color:#FFFFFF;
+	display:block;
+	padding-left:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-decoration:none;
+	text-transform:uppercase;
+	
+}
+
+
+.menu ul li a:hover {
+	font-style:none;
+	border: 0;
+	height:19px;
+	text-decoration:underline;
+}
+
+.ie .menu ul li a:hover {
+	color:#666666;
+	border: 0;
+}
+
+.menu ul li:hover ul li span {
+	background:none ;
+	*color:#666666;
+}
+.menu ul li:hover ul li  a { /*submenu*/
+	background:none;
+	color:#666666;
+}
+
+.menu ul a span{
+	padding:2px 5px 5px 2px;
+	margin:0px;
+	display:block;
+}
+.menu ul li ul{
+	display:none;
+	position:absolute;
+	width:148px;
+	top:20px;
+	left:-1px;
+	border-top: solid 2px #E77817;
+	background:#F8F8F8;
+	z-index:500;
+	*color:#666666;
+}
+.menu ul li ul li{
+	float:none;
+	position:relative;
+	border:0;
+	padding: 3px 3px;
+	margin: 0px 0px;
+	*color:#666666;
+}
+.menu ul li ul li a{
+	padding:0;
+	text-transform:none;
+	font-size:10px;
+	*color:#666666;
+	
+}
+.menu ul li ul li a span{
+	border-bottom: 1px dotted;
+}
+.menu ul li ul li a:hover span{
+	background:none;
+	*border-bottom: 1px solid #666666;
+}
+.menu ul li ul li a:hover{
+	color: #E77817;
+	background:none;
+}

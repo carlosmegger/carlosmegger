@@ -1,0 +1,37 @@
+/*
+Theme Name: BuddyPress for Blogs da Comunidade Ctea
+Theme URI: http://www.inbe.com.br
+Description: The theme BuddyPress for Blogs this Comunidade Ctea.
+Version: 1
+Author: inbe.com.br
+Author URI: http://www.inbe.com.br
+Tags: buddypress, comunidade ctea, ctea, comunidade, blog, white, blue
+
+** IMPORTANTE - NÃO COPIE ESTE TEMA **
+Se você quiser fazer um tema personalizado com base neste tema, não copiar e editá-lo. Por
+Fazendo isso você vai fazer upgrades e manutenção muito mais difícil para si mesmo.
+Em vez disso, por favor leia esta página do Codex sobre como construir um tema infantil BuddyPress:
+
+http://codex.buddypress.org/how-to-guides/building-a-buddypress-child-theme/
+*/
+
+/***
+ * The default theme styles
+@import url( _inc/css/default.css );
+ */
+
+/***
+ * The admin bar default styles
+ */
+@import url( _inc/css/adminbar.css );
+
+ 
+/***
+ * The admin bar default styles
+ */
+@import url( _inc/css/blogs.css );
+
+/***
+ * The admin bar default styles
+ */
+@import url( _inc/css/fontes.css );

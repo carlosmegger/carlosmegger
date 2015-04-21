@@ -1,0 +1,90 @@
+.menu{
+	border:none;
+	border:0px;
+	margin:0px;
+	padding:0px;
+	background:url(imgs/fundo_menu.png);
+	}
+.menu ul{
+	background-repeat:repeat-x;
+	height:29px;
+	list-style:none;
+	margin:0px 0px 0px 35px;
+	border-left:1px solid #830000;
+	padding:0px;
+	}
+	.menu li{
+		float:left;
+		padding:0px;
+		font-size:14px;
+		font-family:Arial, Helvetica, sans-serif;
+		}
+	.menu li a{
+		color:#ffffff;
+		display:block;
+		font-weight:normal;
+		line-height:29px;
+		margin:0px;
+		padding:0px 25px;
+		text-align:center;
+		text-decoration:none;
+		border-right:1px solid #830000;
+		width:113px;
+		font-weight:bold;
+		text-transform:uppercase;
+		}
+		.menu li a:hover, .menu ul li:hover a{
+			background-image:url(imgs/fundo_menu_hover.png);
+			text-decoration:none;
+			}
+	.menu li ul{
+		background:#990000;
+		display:none;
+		height:auto;
+		padding:0px;
+		margin:0px;
+		border:0px;
+		position:absolute;
+		width:225px;
+		z-index:200;
+		/*top:1em;
+		/*left:0;*/
+		}
+	.menu li:hover ul{
+		display:block;
+		
+		}
+	.menu li li {
+		display:block;
+		float:none;
+		margin:0px;
+		padding:0px;
+		width:225px;
+		}
+	.menu li:hover li a{
+		background:none;
+		
+		}
+	.menu li ul a{
+		display:block;
+		height:32px;
+		font-size:12px;
+		font-style:normal;
+		margin:0px;
+		padding:0px 10px 0px 15px;
+		border:none;
+		text-align:left;
+		font-weight:100;
+		}
+		.menu li ul a:hover, .menu li ul li:hover a{
+			background:#710000;
+			width:200px;
+			border:0px;
+			color:#fff;
+			text-decoration:none;
+			}
+	.menu p{
+		clear:left;
+		}	
+
+		

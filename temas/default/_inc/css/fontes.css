@@ -1,0 +1,184 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* CSS Document */
+/* Inbe Comunicação */
+/* Rafael Garrett  <>  rafael@inbe.com.br */
+/* DWEB */
+
+
+
+/*  /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\//\/\/\/\/\ */
+/* /\/\/\/\/\/\/\/\/\/\/\        	  TEXT classes     		   /\/\/\/\/\/\/\/\/\/\/\/\  */
+/*  /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\//\/\/\/\/\ */
+
+.menu_topo, .menu_topo a:link, .menu_topo a:visited {
+	font:9pt/11pt Tahoma, Geneva, sans-serif;
+	color:#CCEDF9;
+	text-decoration:none;
+}
+
+.menu_topo a:hover{
+	text-decoration:underline;
+}
+
+.input{
+	font:10px/12px Tahoma, Geneva, sans-serif;
+	color:#00A3DF;
+}
+
+
+.menu, .menu a:link, .menu a:visited {
+	font:9pt/11pt Tahoma, Geneva, sans-serif;
+	color:#00A3DF;
+	text-decoration:none;
+}
+
+.menu a:hover{
+	text-decoration:underline;
+}
+
+.destaque, .destaque a:link, .destaque a:visited {
+	font:19pt/22pt Tahoma, Geneva, sans-serif;
+	color:#FF6400;
+	text-decoration:none;
+}
+
+.destaque a:hover{
+	text-decoration:underline;
+}
+
+.texto, .texto a:hover {
+	font:8pt/10pt Tahoma, Geneva, sans-serif;
+	color:#666;
+	text-decoration:none;
+}
+
+.texto a:link, .texto a:visited{
+	text-decoration:underline;
+	color:#1fb3dd;
+}
+
+.post_destaque, .post_destaque a:link, .post_destaque a:visited {
+	font:10pt/12pt Tahoma, Geneva, sans-serif;
+	color:#FFEA0D;
+	text-decoration:none;
+}
+
+.post_destaque a:hover{
+	text-decoration:underline;
+}
+
+.data, .data a:link, .data a:visited {
+	font:8pt/10pt "Times New Roman", Times, serif	;
+	color:#00A3DF;
+	font-style:italic;
+}
+
+.data a:hover{
+	text-decoration:underline;
+}
+
+.destaque_post_titulo, .destaque_post_titulo a:link, .destaque_post_titulo a:visited {
+	font:18pt/20pt Tahoma, Geneva, sans-serif;
+	color:#33CAFF;
+	text-decoration:none;
+}
+
+.destaque_post_titulo a:hover{
+	text-decoration:underline;
+}
+
+.destaque_post_texto, .destaque_post_texto a:link, .destaque_post_texto a:visited {
+	font:8pt/10pt Tahoma, Geneva, sans-serif;
+	color:#DFECF2;
+	text-decoration:none;
+}
+
+.destaque_post_texto a:hover{
+	text-decoration:underline;
+}
+
+.autor, .autor a:link, .autor a:visited {
+	font:8pt/10pt Tahoma, Geneva, sans-serif;
+	color:#00A3DF;
+	text-decoration:none;
+}
+
+.autor a:hover{
+	text-decoration:underline;
+}
+
+.titulo_list_post_category{
+	font:12pt Tahoma, Geneva, sans-serif;
+	color:#0099FF;
+	text-decoration:none;
+	font-weight:bold;
+	margin-bottom:12px;
+	margin-top:12px;
+	padding-left:40px;
+
+}
+
+.titulo_list_post_blog, .titulo_list_post_blog a:link, .titulo_list_post_blog a:visited {
+	font:12pt Tahoma, Geneva, sans-serif;
+	color:#FF6400;
+	text-decoration:none;
+	font-weight:bold;
+	margin-bottom:6px;
+}
+
+.titulo_list_post, .titulo_list_post a:link, .titulo_list_post a:visited {
+	font:10pt/12pt Tahoma, Geneva, sans-serif;
+	color:#FF6400;
+	text-decoration:none;
+}
+
+.titulo_list_post a:hover{
+	text-decoration:underline;
+}
+.titulo_lista, .titulo_lista a:link, .titulo_lista a:visited {
+	font:12pt/14pt Tahoma, Geneva, sans-serif;
+	color:#00A3DF;
+	text-decoration:none;
+}
+
+.titulo_lista a:hover{
+	text-decoration:underline;
+}
+
+.titulo_pagina, .titulo_pagina a:link, .titulo_pagina a:visited {
+	font:18pt/20pt Tahoma, Geneva, sans-serif;
+	color:#33CAFF;
+	text-decoration:none;
+}
+
+.titulo_pagina a:hover{
+	text-decoration:underline;
+}
+
+.formularios, .formularios a:link, .formularios a:visited {
+	font:10pt/12pt Tahoma, Geneva, sans-serif;
+	color:#00A3DF;
+	text-decoration:none;
+}
+
+.formularios a:hover{
+	text-decoration:underline;
+}
+
+.ativo, .ativo a:link, .ativo a:visited {
+	font:11px/13px Arial, Helvetica, sans-serif;
+	color:#ffa200;
+	text-decoration:none;
+}
+
+.ativo a:hover{
+	text-decoration:underline;
+}
+
+.autor, .autor a:link, .autor a:visited, .autor a:hover{
+	font:9px/10px Tahoma, Geneva, sans-serif;
+	color:#fff;
+	text-decoration:none;
+}

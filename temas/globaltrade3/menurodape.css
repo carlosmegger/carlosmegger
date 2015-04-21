@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#menurodape , #menurodape * {
+	text-align:center;
+	
+}
+#menurodape {
+	padding-left:18px;
+	padding-right:18px;
+}
+#menurodape li:first-child {
+	padding-right:9px;
+}
+#menurodape li , #menurodapea li {
+	list-style: none;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	float:left;
+	margin:0px;
+	
+}
+#menurodape li.by {
+	float:right;
+}
+#menurodapea li a , #menurodapea li a:visited {
+
+	padding-left:9px;
+	padding-right:9px;
+	color:#ffffff;
+	font-size:12px;
+	text-decoration:none;
+}
+
+#menurodapea li a:hover {
+color: #ffffff;
+text-decoration:underline;
+}
+#menurodapea {
+	margin: auto;
+	padding-left:2px;
+	width:500px;
+}
+
+
+
+#sub {
+	padding-bottom:5px;
+	margin-left:0px;
+	padding-left:0px;
+	display: block;
+	font-size:12px;
+	
+}
+	
+#sub li {
+	float: left;
+	list-style: none;
+}
+
+#sub li a , #sub li a:visited {
+
+	padding-right:30px;
+	color:#990000;
+	text-decoration: none;
+}
+
+#sub li a:hover {
+	color:#000000;
+	text-decoration: underline;
+
+}
+
+ul#sub li.current_page_item a, ul#sub li.current_page_item a:visited {
+
+}
+
+#sub li.current_page_item a:hover {}
+
+
+#sub {
+
+
+
+

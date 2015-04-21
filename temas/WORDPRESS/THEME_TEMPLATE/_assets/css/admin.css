@@ -1,0 +1,34 @@
+table.form-table {  }
+table.form-table h3 { border-bottom:1px solid; font-size: 20px; font-weight:normal; margin: 0; text-transform: uppercase; }
+table.form-table h4 { margin-bottom: 0; }
+table.form-table tr.odd { background: #eee; }
+
+/*******************************************************/
+/**** | METABOX BREAD CRUMB
+/*******************************************************/
+
+#box-bread_drumb li { background:#EEEEEE; padding: 5px; }
+#box-bread_drumb label { display:block; width: 60px; }
+#box-bread_drumb input { display:block; width: 100%; }
+
+/*******************************************************/
+/**** | CHECKBOX
+/*******************************************************/
+
+.checkbox { border: 1px #999 solid; cursor:pointer; display:inline-block; height: 10px; margin:0 5px 0 0; width: 10px; }
+.checkbox:hover { border-color: #333; }
+
+.checkbox.yellow { background: #f6e064; }
+.checkbox.green { background: #22fb7e; }
+.checkbox.red { background: #ff3a3a; }
+.checkbox.gray { background: #d1d1d1; }
+
+/*******************************************************/
+/**** | METABOX PAGE MENU
+/*******************************************************/
+#box-page_menu select { width: 100%; }
+
+/*******************************************************/
+/**** | FORMS
+/*******************************************************/
+textarea.classic { height:4em; margin:0; width: 98%; }

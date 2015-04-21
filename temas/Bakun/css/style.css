@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{ padding:0; margin:0;}
+body{ background:url(../images/background.jpg); }
+header{ background:url(../images/background-header.jpg) repeat-x #c9c9c9; height: 332px; position:relative;}
+header h1#personal{ background:url(../images/logoBakun.png); float:left; height:332px; text-indent:-9999px; width:145px;}
+header span#logo{ background:url(../images/TipBakun.png); float:left; height:272px; margin:10px 0 0 80px; text-indent:-9999px; width:651px;}
+header span#LojaVirtual{ background:url(../images/LojaVirtual.png); height:65px; text-indent:-9999px; width:211px; position:absolute;  top:20px; right:0;}
+section#menu{ background:#eaeaea; border-bottom:3px solid #72508b; border-top:3px solid #72508b; height:50px; }
+section#menu nav{ float:left; width: 760px;}
+section#menu nav li{ background:url(../images/separador.png) center right no-repeat; float:left; font-family:'Ubuntu', sans-serif; font-size:22px; font-weight:bold; list-style:none; padding:14px 16px 6px; text-transform:uppercase; height:33px; width:auto; }
+section#menu nav li a{color:#72508b; text-decoration:none;}
+section#menu nav li.action{ background:#FFF;}
+#wrapper{ background:#fff; margin:auto; width: 1000px; }
+section#content{ background:#f3f3f3;}
+section#content .post{ border:1px solid #e4e4e4; border-left:0; border-top:0; background:#FFF; float:left; padding-top:40px; width:640px; }
+section#content .post h1{ background:#72508b; color:#FFF; font-family:'Ubuntu', sans-serif; font-size:22px; font-weight:300; padding:10px 33px; text-transform:uppercase;}
+section#content .post .content-post{ color:#1c1c1c; font-family:'Ubuntu', sans-serif; font-size:17px; padding:20px 33px; line-height:26px;}
+
+
+
+
+
+.clear{ clear: both;}
+
+
+
+
+
+
+@media only screen and (min-width: 300px) {}

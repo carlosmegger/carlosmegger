@@ -1,0 +1,59 @@
+
+Version 1.1.2 - Updated: 27.06.2011
+================================================
+Added : The option to have the "Feedback" button fixed (to not scroll with the page)
+Added : German Translation courtesy of Silvia ( http://themeforest.net/user/SiGa/profile )
+Updated : compatibility to PHP 5.3.6
+Fixed: Related to "U-Design Shortcode Insert Button" plugin. Added the missing ... show_thumbs="1" ... to the "U-Design: Recent Posts" widget shortcode.
+
+Version 1.1.1 - Updated: 20.06.2011
+================================================
+Updated : Timthumb script
+Updated : Sitemap page templates' strings are included for translation now
+Updated : Made the single view post title H1 tag
+Fixed : Heading mismatch for post comments template
+
+Version 1.1.0 - Updated: 12.06.2011
+================================================
+Added : 'Top Area Social Media' Widget Area. A widget area positioned in the top right corner of the site designated for social media links and icons
+Added : 19 New Google Fonts
+Added : Portfolio custom field 'portfolio_item_link' which allows to link directly from the thumbnail to another page or site rather than display a preview item
+Fixed : Full-width widget bug experienced in some cases on home page
+Fixed : Heading mismatch for post comments template
+
+Version 1.0.1 - Updated: 07.06.2011
+================================================
+Added : The options: "Bottom Area Background Image" and "Footer Background Image" under theme's "Custom Colors"
+Added : A link to the theme's Support Forum under the "Help" section
+Fixed : Changed cursor behaviour to 'default' for top natigation menu items that are not links
+
+Version 1.0.0 - Initial Release: 04.06.2011
+================================================
+-
+
+
+
+Affected Files in this release:
+================================================
+	- u-design/u-design_options_page.php
+	- u-design/functions.php
+	- u-design/scripts/documentation/index.html
+	- u-design/scripts/notifier/update-notifier.php
+	- u-design/styles/style1/css/style.css
+	- u-design/styles/custom/custom_style.css
+	- u-design/locale/u-design.pot (updated)
+	- u-design/locale/nl_NL.po (updated)
+	- u-design/locale/nl_NL.mo (updated)
+	- u-design/locale/it_IT.po (updated)
+	- u-design/locale/it_IT.mo (updated)
+	- u-design/locale/es_ES.po (updated)
+	- u-design/locale/es_ES.mo (updated)
+	- u-design/locale/de_DE.po (new)
+	- u-design/locale/de_DE.mo (new)
+	- u-design/style.css ( updated version information only )
+
+"U-Design Shortcode Insert Button" plugin:
+================================================
+	- udesign-shortcode-insert-button/udesignShortcodeInsert.php
+	- udesign-shortcode-insert-button/tynymce/editor_plugin.js
+	- udesign-shortcode-insert-button/tynymce/window.php

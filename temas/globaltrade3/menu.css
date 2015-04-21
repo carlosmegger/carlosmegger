@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#menubv {
+	width: 16em;
+	padding: 3px;
+	margin: 0;
+	font: 14px Verdana, sans-serif;
+	background-color:#FFFFFF;
+	background: url(imgs/sombrarodape.jpg) bottom right no-repeat;
+
+}
+#menubv ul {
+	margin: 0;
+	padding: 0;
+}
+#menubv li {
+	list-style: none;
+	border-bottom: 1px dotted #000000;
+	margin: 0;
+}
+#menubv li ul {
+	background:none;
+}
+#menubv li a {
+	display: block;
+	padding: 10px 10px 10px 0.5em;
+	color:#666666;
+	text-decoration: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#menubv li a:hover {
+	color: #000000;
+	
+
+}
+/* Fix IE. Hide from IE Mac \*/
+* html ul#menubv  li {
+	height: 1%;
+	float: right;
+}
+* html ul#menubv  li a { height: 1%; }
+/* End */

@@ -1,0 +1,118 @@
+* { margin: 0; padding: 0; }
+ul, ol { list-style: none; }
+img, fieldset { border: 0 none; }
+
+html, body { background: url(../images/pattern-blog.jpg) center center repeat; font: 12px Arial, Helvetica, sans-serif; color: #000000; }
+
+.double-border { border-left: 3px solid #000000; border-right: 3px solid #000000; padding-top: 9px; background: #ffffff url(../images/double-line.gif) top left repeat-x; }
+.double-border-sub { padding-bottom: 9px; background: url(../images/double-line.gif) bottom left repeat-x; }
+
+/* contendo float */
+.contemfloat:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.contemfloat { display: inline-block; }
+/* Hides from IE-mac \*/
+* .contemfloat { height: 1%; }
+.contemfloat { display: block; }
+/* End hide from IE-mac */
+
+
+/* HEADER */
+#header-wrapper { position: absolute; top: 0; left: 0; width: 100%; height: 35px; background: #000000; }
+#header { width: 990px; margin: 0 auto; }
+
+#header .logo { float: left; padding: 9px 0 0 20px; }
+
+#header .contato { float: right; margin: 11px 10px 0 0; }
+#header .contato p { float: left; width: 112px; height: 16px; margin-right: 20px; background: url(../images/telefone.gif) center center no-repeat; text-indent: -9999em; overflow: hidden; }
+#header .contato ul { float: left; }
+#header .contato li { float: left; margin-left: 4px; }
+#header .contato a { display: block; width: 16px; height: 16px; background: center center no-repeat; text-indent: -9999em; overflow: hidden; }
+
+#redes-facebook { background-image: url(../images/redes_facebook.gif); }
+#redes-youtube { background-image: url(../images/redes_youtube.gif); }
+#redes-linkedin { background-image: url(../images/redes_linkedin.gif); }
+#redes-twitter { background-image: url(../images/redes_twitter.gif); }
+#redes-foursquare { background-image: url(../images/redes_foursquare.gif); }
+
+#header .menu { padding: 12px 0 0 153px; }
+#header .menu li { float: left; height: 15px; margin-left: 9px; padding-left: 12px; background: url(../images/menu_dot.gif) left center no-repeat; }
+#header .menu a { display: block; width: 100%; height: 100%; text-indent: -9999em; overflow: hidden; }
+
+#header .menu #menu-quemsomos { width: 92px; background: none; margin: 0; padding: 0; }
+#menu-quemsomos a { background-image: url(../images/lk_quem_somos.gif); }
+#menu-clientes { width: 56px; }
+#menu-clientes a { background-image: url(../images/lk_clientes.gif); }
+#menu-trabalhos { width: 70px; }
+#menu-trabalhos a { background-image: url(../images/lk_trabalhos.gif); }
+#menu-blog { width: 31px; }
+#menu-blog a { background-image: url(../images/lk_blog.gif); }
+#menu-talentos { width: 118px; }
+#menu-talentos a { background-image: url(../images/lk_talentos.gif); }
+#menu-contato { width: 55px; }
+#menu-contato a { background-image: url(../images/lk_contato.gif); }
+/* HEADER */
+
+/* CONTENT */
+#content-wrapper { width: 990px; margin: 35px auto 0; }
+h1.master { padding: 25px 0 20px 10px; font: bold "Trump Gothic East", Arial, Helvetica, sans-serif; color: #ffffff; overflow: hidden; }
+h1.master span { float: left; padding: 20px; background: #000000; text-transform: uppercase; }
+h1.master .sup { font-size: 78px; }
+h1.master .inf { font-size: 63px; margin: 110px 0 0 -160px; }
+
+#content { clear: both; float: left; width: 765px; }
+#content .post { margin-left: 70px; }
+#content .post a { color:#000; font-family: Georgia, "Times New Roman", Times, serif; font-style:italic;}
+#content .post .double-border-sub { position: relative; padding: 32px 29px; }
+#content .post .post-title { font: bold 40px "Trump Gothic East", Arial, Helvetica, sans-serif; }
+
+#content .post .data { position: absolute; top: 9px; left: -86px; width: 107px; height: 98px; padding-top: 21px; background: url(../images/balao_data.png) left top no-repeat; color: #FFFFFF; }
+#content .post .data span { display: block; margin-left: -8px; text-align: center; }
+#content .post .data .dia { font-size: 36px; line-height: 36px; font-weight: bold; }
+#content .post .data .mes { font-size: 11px; line-height: 11px; }
+#content .post .data .ano { font-size: 9px;  line-height: 9px; }
+
+.post-text img{ padding: 4px 18px 18px 18px;}
+
+#content .post .comentarios { position: absolute; bottom: -75px; right: 0; width: 98px; height: 107px; background: url(../images/balao_comentarios.png) left top no-repeat; }
+#content .post .comentarios a { display: block; width: 100%; height: 100%; text-decoration: none; text-align: center; color: #FFFFFF; font-size: 16px; font-weight: bold; line-height: 16px; }
+#content .post .comentarios span { display: block; }
+#content .post .comentarios .quantidade { margin-top: 30px; font-size: 36px; line-height: 36px; }
+
+#content .post .tags { width: 370px; margin: 10px 0 40px; border: 3px solid #000000; padding: 10px; background: #ffffff; overflow: hidden; }
+#content .post .tags h3 { float: left; width: 85px; height: 45px; background: url(../images/tit_tags.gif) left top no-repeat; text-indent: -9999em; overflow: hidden; }
+#content .post .tags p { margin: 8px 0 0 105px; font-family: Georgia, "Times New Roman", Times, serif; font-style: italic; }
+#content .post .tags a { color: #000000; }
+
+/* parte de comentario */
+#commentlist li { margin: 10px 0 10px 0;}
+#content .margin-title{ margin:10px 0;}
+#content #author { border:2px solid #000; margin:0 0 10px; padding:2px;}
+#content #email { border:2px solid #000; margin:0 0 10px 0; padding:2px;}
+#content #comment { border:2px solid #000; margin:0 0 10px 0; padding:4px;}
+#content #submit { background:#E8E8E8; border:2px solid #000; cursor:pointer; margin:0 0 10px 0; padding:2px;}
+
+/* CONTENT */
+
+/* SIDEBAR */
+#sidebar { position: relative; float: right; width: 190px; margin-right: 15px; }
+#sidebar-redirect { position: absolute; top: -115px; left: 50%; width: 155px; height: 165px; margin-left: -83px; background: url(../images/balao_redirect.png) left top no-repeat; }
+
+#sidebar .double-border-sub { padding: 40px 0 60px 0; }
+#sidebar h2 { position: relative; padding: 15px 0 20px; text-align: center; font: bold 40px "Trump Gothic East", Arial, Helvetica, sans-serif; text-transform: uppercase; background: url(../images/nuvem.gif) center bottom repeat-x; }
+#sidebar h2 span { position: absolute; top: 21px; left: 129px; width: 30px; font-size: 18px; line-height: 18px; }
+#sidebar ul { margin-top: 10px; padding-top: 1px; background: url(../images/dots.gif) top left repeat-x; }
+#sidebar li { padding: 8px 15px; text-transform: uppercase; font-size: 14px; font-weight: bold; background: url(../images/dots.gif) left bottom repeat-x; }
+#sidebar a { text-decoration: none; color: #000000; }
+#sidebar a:hover { text-decoration: underline; }
+
+#sidebar form p { padding: 15px 10px; }
+#sidebar form input { padding: 3px; border: 0 none; background: #000000; color: #ffffff; vertical-align: middle; }
+#sidebar form button { background: none; border: 0 none; text-transform: uppercase; font-size: 24px; font-family: "Trump Gothic East", Arial, Helvetica, sans-serif; vertical-align: middle; cursor: pointer; }
+/* SIDEBAR */
+
+/* FOOTER */
+#footer-wrapper { clear: both; margin-top: 100px; padding-top: 14px; background: url(../images/mar.png) center top repeat-x; }
+#footer { height: 200px; background: #ffffff; }
+/* FOOTER */
+
+.clear{ clear:both; visibility:hidden;}

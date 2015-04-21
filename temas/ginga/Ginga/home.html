@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Saudabilidade</title>
+    <script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+	<link media="screen" type="text/css" rel="stylesheet" href="style.css">
+    <link href="menu.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <script type="text/javascript">
+		$(function(){		
+			$('a[href*=#]').click(function() {			
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+				&& location.hostname == this.hostname) {				
+					var $target = $(this.hash);					
+					$target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');					
+					if ($target.length) {					
+						var targetOffset = $target.offset().top;						
+						$('html,body').animate({scrollTop: targetOffset}, 500);							
+						return false;						
+					}					
+				}				
+			});			
+		});
+    </script>
+</head>
+
+<body>
+		<div id="header">
+        		<div class="width4">
+                <div id="logo"><img src="images/logo.png"/></div>
+                <ul class="menu">
+                	<li><a href="#1">Home</a></li>
+                    <li><a href="#2">Experimente</a></li>
+                    <li><a href="#3">Midia</a></li>
+                    <li><a href="#4">Trabalhe Conosto</a></li>
+                    <li><a href="#5">Franquias</a></li>
+                    <li><a href="#6">Contato</a></li>
+                    </ul><!--width4-->
+                </div>
+        </div><!--header-->
+        
+        <div class="width4"><!--width4-->
+              
+        <h2 id="1">Home</h2>
+        <div class="content"><!--content-->
+				Conteudo
+        <hr class="clear"/>
+        </div><!--content-->
+		        
+                		
+		<h2 id="2">Experimente</h2>
+        <div class="content"><!--content-->
+			Conteudo
+		<hr class="clear" />
+		</div><!--content-->
+        
+
+        <h2 id="3">Midia</h2>
+        <div class="content"><!--content-->
+				Conteudo
+		<hr class="clear" />
+        </div><!--content-->
+        
+     
+        <h2 id="4">Trabalhe Conosco</h2>
+        <div class="content"><!--content-->
+                Conteudo 
+		<hr class="clear" />
+        </div><!--content-->
+		
+             
+		<h2 id="5">Franquias</h2>
+        <div class="content"><!--content-->
+			Conteudo
+            <hr class="clear" />	  		
+		</div><!--content-->
+        
+		<h2 id="6">Contato</h2>
+        <div class="content"><!--content-->
+			Conteudo
+            <hr class="clear" />	  		
+		</div>  <!--content-->      
+              <p>.</p>
+              <p>.</p>
+              <p>.</p>
+        </div><!--width4-->
+</body>
+</html>

@@ -1,0 +1,149 @@
+/*
+Theme Name: Carlos
+Description: The default WordPress theme based on the famous <a href="http://binarybonsai.com/kubrick/">Kubrick</a>.
+Version: 1.6
+Author: Carlos
+Tags: blue, custom header, fixed width, two columns, widgets
+Text Domain: kubrick
+ */
+
+
+@charset "utf-8";
+
+
+.topo {
+
+width:996px;
+margin:auto;
+margin-top:0px;
+}
+
+.clearhidden {
+	clear:both;
+	visibility:hidden;
+	margin:0px;
+}
+
+body {
+background:url(imgs/fundo_geral.jpg);
+
+}
+
+h3 {
+font-size:10px;
+color:#CCCCCC;
+font-style:none;
+
+}
+
+h4 {
+font-size:12px;
+color:#FF6600;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+.style1 {
+color: #FF6600;
+}
+
+#conteudo{
+background:#FFFFFF;
+width:996px;
+margin:auto;
+margin-top:0px;
+}
+
+.width2{
+
+width:642px;
+padding:18px;
+padding-left:28px;
+padding-right:18px;
+float:left;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+line-height: 14px;
+}
+
+.width1{
+width:260px;
+padding:18px;
+padding-right:28px;
+float:right;
+}
+
+#rodape {
+width:978px;
+height:20px;
+background:url(imgs/rodape.jpg);
+background-repeat:repeat-x;
+color:#FFFFFF;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+padding-top:14px;
+padding-left:18px;
+
+}
+
+.feedback {
+	padding-top:0px;
+	color: #ccc;
+	text-align: left;
+	clear: both;
+}
+
+.feedback a:link, .feedback a, .feedback a:hover {
+	color:#FF6600;
+}
+
+.storytitle {
+	margin: 0;
+	margin-top:10px;
+}
+
+.storytitle a {
+	font-size:12px;
+	text-decoration: none;
+	font-style:inherit;
+	color:#FF6600;
+}
+.navigation {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 60px;
+	}
+		
+<!--menu das categorias-->
+	
+#menubv {
+width:200px;
+padding: 3px;
+margin: 0;
+font: 14px Verdana, sans-serif;
+
+}
+
+#menubv ul {
+margin: 0;
+padding: 0;
+}
+
+#menubv li {
+list-style: none;
+border-bottom: 1px dotted #cccccc;
+margin: 0;
+}
+
+#menubv li a {
+display: block;
+padding: 10px 10px 10px 0.5em;
+color:#666666;
+text-decoration: none;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+}
+
+#menubv li a:hover {
+color: #ff6600;
+}

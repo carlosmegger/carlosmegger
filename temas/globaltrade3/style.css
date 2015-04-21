@@ -1,0 +1,288 @@
+/*
+Theme Name: Global Trade 3
+Theme URI: http://wordpress.org/
+Description: The default WordPress theme based on the famous <a href="http://binarybonsai.com/kubrick/">Kubrick</a>.
+Version: 1
+Author: Carlos Megger
+Author URI: http://www.inbe.com.br
+Tags: blue, custom header, fixed width, two columns, widgets
+Text Domain: kubrick
+
+	Kubrick v1.5
+	 http://binarybonsai.com/kubrick/
+
+	This theme was designed and built by Michael Heilemann,
+	whose blog you will find at http://binarybonsai.com/
+
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+
+*/
+
+body {
+	margin-top: 0px;
+	background-image:url(imgs/fundo.png);
+	background-color:#dddddd;
+}
+
+h2 {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#990000;
+
+}
+
+h4 {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:15px;
+color:#990000;}
+
+.style3 {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:#999999;
+font-size:12px;
+font-style:italic;
+margin:0px;
+padding:0px;
+
+}
+
+.clear{
+	clear:both;
+	visibility:hidden;
+	margin:0px;
+}
+
+.sombra {
+	width:100%;
+	background:url(imgs/sombra.png) repeat-y center;
+	margin:auto;
+}
+
+.clearpost{
+	clear:both;
+	border: 1px dotted #565859;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.storytitle {
+	padding-top:5px;
+	margin: 0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#990000;
+}
+
+.storytitle a {
+	padding-top:5px;
+	margin: 0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#990000;
+	text-decoration:none;
+	}
+
+.geral {
+	width: 1023px;
+	margin:auto;
+}
+
+.width4 {
+	width: 1023px;
+	background-color:#FFFFFF;
+	margin:auto;
+	line-height:15px;
+}
+.width4b {
+	width: 987px;
+	padding:18px;
+	line-height:15px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666666;
+}
+
+
+.width3 {
+	width: 712px;
+	float:left;
+	padding:18px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666666;
+}
+
+.width2 {
+	width: 474px;
+	float:left;
+	padding:18px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666666;
+}
+
+.width1 {
+	width: 237px;
+	float:left;
+	padding:18px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#999999;
+}	
+	
+#rodape {
+	width: 987px;
+	height:25px;
+	background-color:#485e88;
+	padding-left:18px;
+	padding-right:18px;
+	padding-top:8px;
+	margin:auto;
+}
+
+
+.topo {
+	width: 993px;
+	padding-left:15px;
+	padding-right:15px;
+	height:163px;
+	background-image:url(imgs/topo_01.gif);
+	
+}
+.menu {
+	width: 993px;
+	padding-left:15px;
+	padding-right:15px;
+	margin-bottom:0px;
+	height:34px;
+	background-image:url(imgs/topo_02.gif);
+	
+}
+#topoimg{
+	margin-left: 0px;
+	padding: 35px;
+	padding-left: 16px;
+	}
+
+.socialmedia { float:right; width:120px; margin-right:10px;}
+.socialmedia li { float:right; list-style:none; margin-left:14px; margin-top:10px;}
+.socialmedia li a , .socialmedia li a:visited {}
+.socialmedia li a.icomediasocial , .socialmedia li a:visited.icomediasocial {
+	text-indent: -9999px;
+	overflow: hidden;
+	width: 18px;
+	height: 18px;
+	display: block;
+}
+.socialmedia li a.twitter { background:url(imgs/twitter.jpg) no-repeat center;}
+.socialmedia li a.rss {background:url(imgs/rss.jpg) no-repeat center;}
+.socialmedia li a.face {background:url(imgs/face.jpg) no-repeat center;}
+
+
+
+
+
+
+
+
+/* MENU DO CABEÇALHO GLOBAL TRADE */
+#nav {
+	padding-top:4px;
+	display: block;
+	font-size: 14px;
+	width: 900px;
+	margin:0px;
+	float:right;
+	
+}
+	
+#nav li {
+	list-style: none;
+	float: right;
+}
+
+#nav li a , #nav li a:visited {
+	padding: 8px;
+	margin-left: 20px;
+	color: #FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	display:block;
+}
+
+#nav li a:hover {
+	color: #EAEAEA;
+	background-color: #435881;
+	text-decoration: underline;
+
+}
+
+ul#nav li.current_page_item a, ul#nav li.current_page_item a:visited {
+	background:#eeeeee;
+	text-decoration: underline;
+	color:#435881;
+}
+
+#nav li.current_page_item a:hover {}
+
+
+/* class lista de definição equipe */
+dl.equipe {  width:710px; float:left;}
+*dl.equipe {  width:650px; float:left;}
+dl.equipe, dl.equipe * {padding:0px; margin:0px;}
+dl.equipe dt { font-weight:bold; float:right; width:600px; margin-top:10px; color:#990000; margin-bottom:9px;}
+*dl.equipe dt { font-weight:normal; float:right; width:546px; margin-top:10px; color:#990000; margin-bottom:9px;}
+dl.equipe dd { color:#666666; width:600px; _width:500; float:inherit; margin-bottom:9px;}
+*dl.equipe dd { color:#666666; width:540px; _width:500; float:inherit; margin-bottom:9px; }
+
+dl.equipe dd.avatar {
+margin-top:9px;
+	width:110px;
+}
+*dl.equipe dd.avatar {
+margin-top:9px;
+	float:left;
+	width:100px;
+}
+dl.equipe dd.avatar img {
+	border:1px solid #eeeeee; padding:2px;}
+
+dl.equipe hr {
+	clear:both;
+	}
+	
+	
+/* FORMULARIO DE CONTATO*/
+#formwrap {
+	border:none;
+}
+
+form {}
+fieldset {}
+fieldset fieldset {
+	width:450px;
+	padding:8px;
+	margin-bottom:10px;
+	margin-right:10px;
+	float:left;
+	border:#cccccc 1px dashed;
+}
+
+fieldset input {
+	width:300px;
+}
+
+fieldset input.button {
+	width:55px;
+}
+
+fieldset input.checkbox {
+	width:20px;
+}
+
+fieldset textarea {
+	width:300px;
+	height:70px;
+}

@@ -1,0 +1,94 @@
+/* --------------------------------------------------- */
+/* RESET DAS PROPRIEDADES                              */
+/* --------------------------------------------------- */
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+form,
+fieldset,
+input,
+textarea,
+blockquote,
+button,
+th,
+td {
+	border:none;
+	margin:0;
+	padding:0;
+}
+
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+fieldset,
+img { border:none; display:block; }
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+	font-style:normal;
+	font-weight:normal;
+}
+
+ol,
+ul {
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+}
+
+caption,
+th { text-align:left; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+
+q:before,
+q:after { content:''; }
+
+abbr,
+acronym { border:none; }
+
+strong { font-weight:bold; }
+
+em { font-style:italic; }
+
+button {
+	background: none;
+	border: none;
+}
+a,
+input:focus, 
+select:focus, 
+textarea:focus{
+	outline:none;
+}

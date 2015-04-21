@@ -1,0 +1,914 @@
+/*
+Theme Name: Comunidade CTEA 2.0 Blogs
+Theme URI: http://ctea.med.br
+Description: The default WordPress theme based on the famous BuddyPress.
+Version: 2
+Author: Carlos, Rafael Garrett
+Author URI: http://www.inbe.com.br
+Tags: CTEA, comunidade, saúde, esporte, blogs, medicos, bem estar.
+Text Domain: Comunida CTEA 2.0 Blogs
+
+*/
+
+@charset "utf-8";
+/* CSS Document */
+/*  /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\//\/\/\/\/\ */
+/* /\/\/\/\/\/\/\/\/\/\/\       	  Elementos básicos    		    /\/\/\/\/\/\/\/\/\/\/\  */
+/*  /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\//\/\/\/\/\ */
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+}
+
+hr{
+	float:left;
+	width:712px;
+	height:1px;
+	border-width:0;
+	border-top-width:1px;
+	border-top:1px solid #bbb;
+	margin-left:41px;
+}
+
+.clear{
+	float:left;
+	width:712px;
+	border:none;
+	padding:0px;
+	margin:0px;
+	visibility:hidden;
+	
+}
+
+.clear2{
+	float:left;
+	width:600px;
+	height:1px;
+	border-width:0;
+	border-top-width:1px;
+	border-top:1px solid #bbb;
+	margin-left:0px;
+	margin-top:2px;
+	*margin-top:0px;
+	margin-bottom:2px;
+	*margin-bottom:0px;
+	clear:both;
+}
+
+
+/*  /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\//\/\/\/\/\ */
+/* /\/\/\/\/\/\/\/\/\/\/\        		  specific DIVS    		    /\/\/\/\/\/\/\/\/\/\/\  */
+/*  /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\//\/\/\/\/\ */
+
+#topo{
+	width:100%;
+	background-color:#00A3DF;
+	min-height:23px;
+	height:auto;
+}
+
+.padder{  
+float:left;
+font:normal normal normal 10pt/12pt Tahoma, Geneva, sans-serif;
+color:#00A3DF;
+}
+.padder #avatarlogout{
+float:left;
+70px;
+border:1px #CCCCCC solid;
+margin-right:10px;
+}
+
+	.padder #avatarlogout .avatar{
+		border: none;
+	}
+	
+.padder #avatarlogout2{
+float:left;
+padding-top:5px;
+}  
+
+.padder #avatarlogout2 img{
+border:none;
+}  
+
+
+a.button, input[type="button"], input[type="reset"], ul.button-nav li a, div.generic-button a {
+	background:url(../imgs/bt_logout.png) no-repeat center center;
+	width:45px;
+	font-size: 12px;
+	font-weight: normal;
+	vertical-align: bottom;
+	text-indent: -9999px;
+	overflow: hidden;
+	display: block;
+}
+
+#titleblog{
+	height:30px;
+	padding-top:25px;
+	padding-left:25px;
+	top:-114px;
+	z-index:1;
+	float:left;
+	position:relative;
+	}
+	
+	#topo #conteudo_topo{
+		width:1004px;
+		min-height:23px;
+		height:auto;
+		margin: 0 auto;
+	}
+	
+	#text{ 
+		float:left;
+		width:500px;
+		text-align:left;
+		}
+	
+		#topo #conteudo_topo #menu_topo{
+			float:left;
+			width:auto;
+			height:12px;
+			margin:3px 0 0 32px;
+			list-style:none;
+		}
+		
+			#topo #conteudo_topo #menu_topo li{
+				float:left;
+				width:auto;
+				height:12px;
+				margin-left:28px;
+			}
+			
+		#topo #conteudo_topo #login{
+			float:right;
+			width:auto;
+			height:12px;
+			margin-top:3px;
+		}
+		
+		#topo #conteudo_topo #search-form{
+			float:right;
+			width:auto;
+			height:12px;
+			margin:2px 58px 0 33px;
+		}
+		
+			#topo #conteudo_topo #search-form label{
+				float:left;
+				width:auto;
+				height:12px;
+			}
+			
+			#topo #conteudo_topo #search-form #search-terms{
+				float:left;
+				width:101px;
+				height:12px;
+				padding-left:3px;
+				margin:3px 5px 0 8px;
+				background:url(../imgs/back_procurar_07.jpg) no-repeat;
+				border:none;
+			}
+				
+			#topo #conteudo_topo #search-form #search-which{
+				float:left;
+				margin-right:5px;
+			}
+			
+			#topo #conteudo_topo #search-form #search-submit{
+				float:left;
+				width:10px;
+				height:10px;
+				margin-top:3px;
+				background:url(../imgs/bt_ok_07.jpg) no-repeat;
+				border:none;
+				text-indent:-100px;
+			}
+
+#expansivo{
+	width:100%;
+	min-height:720px;
+	height:auto;
+	background: url(../imgs/back_expansivo.jpg) repeat-x top left #FFF;
+}
+
+	#expansivo #conteudo{
+		width:1004px;
+		min-height:720px;
+		height:auto;
+		margin: 0 auto;
+		display:table;
+	}
+		#expansivo #conteudo_rodape{
+		width:990px;
+		height:8px;
+		background: url(../imgs/back_pag_rodape.png)no-repeat;
+		margin:auto;
+	}
+	
+		#expansivo #conteudo #logo{
+			float:left;
+			width:127px;
+			height:42px;
+			margin:17px 0 0 58px;
+			background:url(../imgs/ctea-comunidade_logo.jpg) no-repeat;
+		}
+		
+		#expansivo #conteudo #redes{
+			float:right;
+			min-width:144px;
+			width:auto;
+			min-height:19px;
+			height:auto;
+			margin:13px 61px 0 0;
+			list-style:none;
+		}
+		
+			#expansivo #conteudo #redes li{
+				float:left;
+				min-width:20px;
+				width:auto;
+				height:19px;
+				margin-right:5px;
+			}
+			
+				#expansivo #conteudo #redes li a img{
+					border:none;
+				}
+		
+		#expansivo #conteudo #menu{
+			float:right;
+			min-width:321px;
+			width:auto;
+			height:28px;
+			margin:20px 141px -7px 0;
+			list-style:none;
+			z-index:1;
+			position:relative;
+			clear:right;
+		}
+		
+			#expansivo #conteudo #menu li{
+				float:left;
+				width:auto;
+				height:23px;
+				padding:0 7px 5px 7px;
+				margin-right:13px;
+			}
+			
+			#expansivo #conteudo #menu #select_li{
+				float:left;
+				width:auto;
+				height:23px;
+				padding:0 7px 5px 7px;
+				margin-right:2px;
+				margin-left:-11px;
+			}
+			
+				#expansivo #conteudo #menu li img{
+					border:none;
+				}
+				
+				#expansivo #conteudo #menu li span{
+					float:left;
+					width:auto;
+					height:18px;
+					padding:10px 5px 0 5px;
+				}
+				
+				#expansivo #conteudo #menu li #span_select{
+					float:left;
+					width:auto;
+					height:18px;
+					background:url(../imgs/back_menu_auto.jpg) repeat-x;
+					padding:10px 5px 0 5px;					
+				}
+				
+					#expansivo #conteudo #menu li #span_select a{
+						color:#fff;
+					}
+			
+			#expansivo #conteudo #menu .selectInicio{
+				background:url(../imgs/back_menu.jpg) no-repeat center center #fff;
+				color:#FF6400;
+			}
+				
+/* P'agina de Blogs */
+
+	#expansivo #conteudo #kbca_topo{
+			float:left;
+			width:1004px;
+			height:7px;
+			background:url(../imgs/back_pag_topo.png) no-repeat center center;
+			z-index:0;
+			position:relative;
+		}
+
+	#expansivo #conteudo #kbca{
+		float:left;
+		width:990px;
+		min-height:84px;
+		height:auto;
+		background:url(../imgs/back_kbca.jpg) repeat-y center center;
+		padding:0 7px 0 7px;
+	}
+	
+		#expansivo #conteudo #kbca h1{
+			float:left;
+			margin:18px 0 0 36px;
+			width:95%;
+		}
+		
+		#avatarperfil{   
+			width:120px;
+			background-image:url(../imgs/avatar_perfil.jpg);
+			height:120px;
+			float:left;
+			margin-bottom:10px;
+			margin-top:0px;
+			margin-right:10px;
+			margin-left:8px;		
+		}
+		
+		#expansivo #conteudo #kbca_membros{ 
+			float:left;
+			width:960px;
+			min-height:155px;
+			height:auto;
+			background:url(../imgs/back_kbca.jpg) repeat-y center center;
+			padding:15px 7px 0 37px;
+		}
+		
+		#expansivo #conteudo #kbca_blog{  
+			float:left;
+			width:982px;
+			height:114px;
+			background:url(../imgs/back_kbca.png) repeat-y center center;
+			padding:0px 10px 0 12px;
+			z-index:2;
+		}
+		
+			#expansivo #conteudo #kbca #whats-new-form{
+				margin:10px 0 30px 22px;
+				border-bottom:1px solid #f0f0f0;
+				padding:0 0 20px 0;
+				float:left;
+				width:95%;
+			}
+			
+				#expansivo #conteudo #kbca #whats-new-form #whats-new-avatar{
+					float:left;
+					width:51px;
+					height:50px;
+					margin:0 0 6px 0;
+					background:url(../imgs/fundo_avatar.jpg) no-repeat center center;
+					padding:8px;
+				}
+				
+			#expansivo #conteudo #kbca #whats-new-form h5{
+				color:#FFF;
+				margin-left:10px;
+				float:left;
+				width:90%;
+			}
+				
+					#expansivo #conteudo #kbca #whats-new-form #whats-new-content #whats-new-textarea{
+						float:left;
+						margin:6px 0 0 10px;
+					}
+					
+					#expansivo #conteudo #kbca #whats-new-form #whats-new-content #whats-new-options{
+						float:left;
+						width:100%;
+						margin-top:10px;
+					}
+					
+					#expansivo #conteudo #kbca #whats-new-form #whats-new-content #whats-new-options #whats-new-submit{
+						float:right;
+						margin-right:10px;
+					}
+					
+					#expansivo #conteudo #kbca #whats-new-form #whats-new-content #whats-new-options #whats-new-post-in-box{
+						float:left;
+						margin-left:75px;
+					}
+	
+		#expansivo #conteudo #kbca_rodape{
+			float:left;
+			width:1004px;
+			height:5px;
+			background:url(../imgs/back_pag_rodape.png) no-repeat center center;
+		}
+	
+	
+	#expansivo #conteudo #pag_conteudo{ 
+		float:left;
+		width:990px;
+		min-height:534px;
+		height:auto;
+		background:url(../imgs/back_pag_conteudo.png) repeat-y center center;
+		padding:7px 7px;
+		margin-top:-5px;
+	}
+	
+		#expansivo #conteudo #pag_conteudo #ordenar{
+			float:right;
+			margin:0 32px 7px 0;
+		}
+		
+		#expansivo #conteudo #pag_conteudo #filtro{
+			float:right;
+			margin:0 32px 7px 0;
+		}
+	
+		#expansivo #conteudo #pag_conteudo #lista_conteudo{
+			float:left;
+			width:712px;
+			min-height:210px;
+			height:auto;
+			list-style:none;
+			margin-left:41px;
+		}
+		
+		#expansivo #conteudo #pag_conteudo #lista_conteudo li{
+				float:left;
+				width:712px;
+				min-height:70px;
+				height:auto;
+				border-bottom:1px solid #bbb;
+		}
+		
+		
+		#expansivo #conteudo #pag_conteudo #lista_conteudo_blog{
+			float:left;
+			width:712px;
+			min-height:210px;
+			height:auto;
+			list-style:none;
+			margin-left:41px;
+		}
+		
+		#expansivo #conteudo #pag_conteudo #lista_conteudo_blog li{
+				float:left;
+				width:712px;
+				min-height:70px;
+				height:auto;
+		}
+		
+			#expansivo #conteudo #pag_conteudo #lista_conteudo_blog li h4{
+				color: #ff0000;
+				margin-bottom: 10px;
+			}
+			
+			#expansivo #conteudo #pag_conteudo #lista_conteudo_blog li h5{
+				font-weight:bold;
+				margin-bottom: 10px;
+			}
+			
+			#expansivo #conteudo #pag_conteudo #lista_conteudo_blog li ul{
+				float: left;
+				width: 100%;
+				list-style: none;
+				margin-bottom: 20px;
+			}
+			
+			#expansivo #conteudo #pag_conteudo #lista_conteudo_blog li ol{
+				float: left;
+				width: 100%;
+				margin-bottom: 20px;
+				margin-left: 10px;			
+			}
+			
+				#expansivo #conteudo #pag_conteudo #lista_conteudo_blog li ul li{
+					float: left;
+					width: 100%;
+					min-height:10px;
+					height: auto;
+					margin-left: 10px;
+					margin-bottom: 10px;
+				}
+				
+				#expansivo #conteudo #pag_conteudo #lista_conteudo_blog li ol li{
+					float: left;
+					width: 100%;
+					min-height:10px;
+					height: auto;
+					margin-bottom: 10px;
+				}
+		
+		#expansivo #conteudo #pag_conteudo #lista_conteudo_blog li .membro{ 
+				float:left;
+				margin:12px 0 0 0;
+				width:20%;
+				text-align:left;
+				font: normal normal normal 8pt/10pt Tahoma, Geneva, sans-serif;
+				color:#666666;
+				margin-left:10px;
+			}	
+			
+			#expansivo #conteudo #pag_conteudo #lista_conteudo_blog li .membro_blog{ 
+				float:left;
+				width:600px;
+				text-align:left;
+				font: normal normal normal 8pt/10pt Tahoma, Geneva, sans-serif;
+				color:#666666;
+				margin-left:10px;
+				margin-bottom:15px;
+				margin-top:10px;
+			}
+			#expansivo #conteudo #pag_conteudo #lista_conteudo_blog li .avatar{ 
+				float:left;
+				width:51px;
+				height:50px;
+				margin:0 0 6px -8px;
+				border:none;
+				background:url(../imgs/fundo_avatar.jpg) no-repeat center center ;
+				padding:8px;
+				display: table;
+			}
+			
+			#expansivo #conteudo #pag_conteudo #lista_conteudo_blog li .avatar img{
+					border:none;
+					float:left;
+			}
+			
+/* > WordPress Blog Comment Styles
+-------------------------------------------------------------- */
+
+#comments{
+	float:left;
+}
+
+	#comments .commentlist{
+		list-style: none;
+		margin: 15px 0;
+	}
+	
+		#comments .commentlist li{
+			margin-bottom: 10px;
+		}
+		
+			#comments .commentlist li .comment-avatar-box{
+				float:left;
+				width: 50px;
+				min-height: 50px;
+				height: auto;
+				background: url("../images/fundo_avatar.png")no-repeat top left;
+				margin: -4px 10px 5px -4px;
+				padding: 8px 8px 8px 8px;
+			}
+			
+				#comments .commentlist li .comment-avatar-box .avb{
+					
+				}
+			
+					#comments .commentlist li .comment-avatar-box .avb .avatar{
+						border: none;
+					}
+					
+					#comments .commentlist li .comment-avatar-box .avb .photo{
+						border: none;
+					}
+					
+			#comments .commentlist li .comment-content .comment-meta{
+				font:8pt/10pt Tahoma, Geneva, sans-serif;
+				color:#666;
+			}
+			
+			#comments .commentlist li .comment-content p a{
+				color:#00A3DF;
+				text-decoration: underline;
+			}
+			
+			#comments .commentlist li .comment-content .comment-meta a{
+				font:8pt/10pt Tahoma, Geneva, sans-serif;
+				color:#00A3DF;
+				text-decoration: underline;
+			}	
+					
+			#comments .commentlist li .comment-content .comment-meta em{
+				float: right;
+				font-style: italic;
+			}
+			
+				#comments .commentlist li .comment-content .comment-meta em a{
+					font-style: italic;
+				}				
+				
+				
+/* Fim P'agina de Blogs */
+				
+/* ----------------------------------------- sidebar -------------------------------------------------- */
+				
+		#expansivo #conteudo #pag_conteudo #sidebar{
+			float:right;
+			width:177px;
+			min-height:519px;
+			height:auto;
+			background:url(../imgs/fundo_sideBar.jpg) repeat-x center top;
+			margin:-7px 5px 0 0;
+			padding:15px 0 0 23px;
+		}
+		
+			#expansivo #conteudo #pag_conteudo #sidebar #login-text{
+				margin-bottom:10px;
+			}
+			
+			#expansivo #conteudo #pag_conteudo #sidebar #sidebar-login-form label input[type="text"], input[type="password"]{
+				width:148px;
+				height:23px;
+				padding:2px 6px;
+				background:url(../imgs/fundo_input_text.jpg) no-repeat;
+				border:none;
+				margin:3px 0 3px -4px;
+			}
+			
+			#expansivo #conteudo #pag_conteudo #sidebar #sidebar-login-form label input[type="checkbox"]{
+				width:13px;
+				height:13px;
+				border:none;
+			}
+			
+			#expansivo #conteudo #pag_conteudo #sidebar #sidebar-login-form #sidebar-wp-submit{
+				width:43px;
+				height:11px;
+				background:url(../imgs/bt_login.jpg) no-repeat center center;
+				border:none;
+				text-indent:-200px;
+				margin-top:10px;
+			}
+			
+/* ----------------------------------------- Fim sidebar -------------------------------------------------- */
+	
+	#expansivo #conteudo #sub_menu{
+		float:left;
+		width:953px;
+		height:24px;
+		margin:-29px 0 0 12px;
+		list-style:none;
+		background:url(../imgs/back_submenu.png) no-repeat bottom center;
+		padding-left:27px;
+	}
+	
+		#expansivo #conteudo #sub_menu li{
+			float:left;
+			min-width:52px;
+			width:auto;
+			height:24px;
+		}
+		
+			#expansivo #conteudo #sub_menu li img{
+				border:none;
+			}
+			
+			#expansivo #conteudo #sub_menu li span{
+				float:left;
+				width:auto;
+				height:16px;
+				padding:8px 9px 0 9px;				
+			}
+			
+			#expansivo #conteudo #sub_menu .page_item{
+				min-width:52px;
+				width:auto;
+				height:20px;
+				padding:4px 7px 0 7px;
+			}
+			
+			#expansivo #conteudo #sub_menu .li_select span{
+				background:url(../imgs/back_submenu_item.png) repeat-x center top;
+			}
+			
+			#expansivo #conteudo #sub_menu .current_page_item{
+				background: url(../imgs/back_submenu_item_esq.png) no-repeat left top, 
+			      url(../imgs/back_submenu_item_dir.png) no-repeat right top;
+			}
+			
+				#expansivo #conteudo #sub_menu li span a{
+					font: 12px/14px Tahoma, Geneva, sans-serif;
+					text-decoration: none;
+					color: #0099FF;
+				}
+				
+				#expansivo #conteudo #sub_menu .page_item a{
+					font: 12px/14px Tahoma, Geneva, sans-serif;
+					text-decoration: none;
+					color: #0099FF;
+				}
+				
+				#expansivo #conteudo #sub_menu .li_select span a{
+					color: #FF6400;
+				}
+				
+				#expansivo #conteudo #sub_menu .current_page_item a{
+					color: #FF6400;
+					background: url(../imgs/back_submenu_item.png) repeat-x center top;
+					float:left;
+					display: block;
+					min-width:52px;
+					width:auto;
+					height:16px;
+					padding:8px 2px 0 2px;
+					margin-top: -4px;
+					text-align: center;
+				}
+				
+				#expansivo #conteudo #sub_menu li span a:hover{
+					text-decoration: underline;
+				}
+				
+				#expansivo #conteudo #sub_menu .page_item a:hover{
+					text-decoration: underline;
+				}
+			
+		#expansivo #conteudo #sub_menu form{
+			float:right;
+			margin-right:201px;
+		}	
+		
+			#expansivo #conteudo #sub_menu form input[type="text"]{
+				border:1px solid #ccc;
+				padding:2px 3px;
+				border-radius:3px;
+			}
+			
+		
+		#twitt_blog{
+			padding-top:0px;
+			padding-bottom:7px;
+			font-weight: normal;
+			color:#FF6400;
+			margin-bottom: 10px;
+		}
+		
+			#twitt_blog a{
+				color:#FF6400;
+				text-decoration: none;
+			}
+			
+				#twitt_blog a:hover{
+					text-decoration:underline;
+				}
+		
+					#twitt_blog a img{
+						border: none;
+					}
+					
+#expansivo #conteudo #pag_conteudo #sidebar .padder .FeedBurner{
+	float: left;
+	margin-top: 20px;
+	background:url(../imgs/news.png) no-repeat bottom right;
+}
+
+	#expansivo #conteudo #pag_conteudo #sidebar .padder .FeedBurner input[type="text"]{
+		margin: 5px 0;
+		border-bottom: 1px solid #ddd;
+		border-right: 1px solid #ddd;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		border-radius: 4px;
+		padding: 2px 3px;
+	}
+	
+	#expansivo #conteudo #pag_conteudo #sidebar .padder .FeedBurner input[type="submit"]{
+		background: url( ../imgs/white-grad.png ) top left repeat-x;
+		border: 1px solid #ddd;
+		padding: 2px 5px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		text-decoration: none;
+		color: #888;
+		font-size: 11px;
+		font-weight: normal;
+		vertical-align: bottom;
+		cursor: pointer;
+	}
+/* ----------------------------------------- rodape -------------------------------------------------- */
+
+#rodape{
+	width:100%;
+	background-color:#00A3DF;
+	min-height:23px;
+	height:auto;
+	margin-top:10px;
+	display:table;
+}
+	
+	#rodape #conteudo_rodape{
+		width:1004px;
+		min-height:23px;
+		height:auto;
+		margin: 20px auto 0 auto;
+		line-height:16px;
+	}
+	
+		#rodape #conteudo_rodape #searchform2{
+			float:left;
+			width:242px;
+			margin-right:12px;
+		}
+		
+			#rodape #conteudo_rodape #searchform2 FIELDSET{
+				border:none;
+			}
+				
+				#rodape #conteudo_rodape #searchform2 FIELDSET input[type="text"]{
+					width:136px;
+					height:14px;
+					background:#CCEDF9;
+					float:left;
+					border:none;
+					border-radius:5px;
+					padding:2px 3px;
+					margin:5px 3px 0 0;
+				}
+				
+				#rodape #conteudo_rodape #searchform2 FIELDSET #submit2{
+					width:26px;
+					height:19px;
+					text-align:center;
+					margin:6px 0 0 4px;
+					background:#CCEDF9;
+					color:#000;
+					border:0;
+					padding:0;
+					border-radius:5px;
+					border-bottom-left-radius: 5px 5px;
+					border-bottom-right-radius: 5px 5px;
+					border-top-left-radius: 5px 5px;
+					border-top-right-radius: 5px 5px;			
+				}
+				
+		
+		#rodape #conteudo_rodape #rss_rodape{
+			float:left;
+			width:750px;
+			margin-bottom:10px;
+		}
+		
+			#rodape #conteudo_rodape #rss_rodape p{
+				margin-top:5px;
+			}
+		
+		#rodape #conteudo_rodape hr{
+			clear:both;
+			margin-bottom:20px;
+			background:#FFF;
+			border:none;
+			height:1px;	
+			width: 100%;
+			margin-left: 0;
+		}
+		
+		#rodape #conteudo_rodape #tags_rodape{
+			float:left;
+			width:242px;
+			margin-right:12px;
+		}
+		
+		#rodape #conteudo_rodape #politica_rodape{
+			float:left;
+			width:242px;
+			margin-right:12px;
+		}
+		
+			#rodape #conteudo_rodape #politica_rodape p{
+				margin-top:5px;
+			}
+		
+		#rodape #conteudo_rodape #part_publi_rodape{
+			float:left;
+			width:242px;
+			margin-right:12px;
+		}
+		
+	#rodape #conteudo_rodape ul{
+		list-style:none;
+		margin-top:5px;
+	}
+		
+		#rodape #conteudo_rodape #cat_rodape{
+			float:left;
+			width:242px;
+		}
+		
+		#rodape #conteudo_rodape #assinatura{
+			float:left;
+			width:1004px;
+			margin:15px 0 5px 0;
+			text-align:center;
+		}

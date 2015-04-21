@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+	<title>Blog da Bakun</title>
+</head>
+
+<body>
+
+<div id="wrapper">
+
+	<header>
+		<h1 id="personal">Bakun</h1>
+		<span id="logo">Blog da Bakun</span>
+		<span id="LojaVirtual">Conheça a nossa loja!</span>
+	</header>
+
+	<section id="menu">
+		<nav>
+			<ul>
+				<li class="action"><a href="#">Blog</a></li>
+				<li><a href="#">Bakun?</a></li>
+				<li><a href="#">Áudios</a></li>
+				<li><a href="#">Vídeos</a></li>
+				<li><a href="#">Imagens</a></li>
+				<li><a href="#">Anuncie</a></li>
+			</ul>
+		</nav>
+	</section>
+
+	<section id="content">
+		<article class="post">
+			<h1>Exemplo de Postagem</h1>
+			<div class="content-post">Exemplo de Postagem Exemplo de PostagemExemplo de Postagem VExemplo de Postagem</div>
+		</article>
+	</section>
+
+	<div class="clear"></div>
+
+	<footer>asas</fotter>
+
+</div><!--wraper-->
+
+</body>
+
+</html>
