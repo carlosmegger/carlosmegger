@@ -16,6 +16,7 @@
 </head>
 
 <body>
+  <div id="lo"></div>
 	<div id="conteudo"><!--conteudo-->
 		<div class="topo"><!--topo1-->
 		  <a href="http://blog.ambientec.com/"><img src="<? bloginfo('stylesheet_directory');?>/imgs/topo_01.gif" border="0" /></a><img src="<? bloginfo('stylesheet_directory');?>/imgs/topo_02.gif" border="0" usemap="#Map" />
